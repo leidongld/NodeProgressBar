@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NodeProgressBar">
+        <attr name="nodeCount" format="integer" />
+        <attr name="nodeWidth" format="dimension" />
+        <attr name="nodeHeight" format="dimension" />
+        <attr name="nodeUnreached" format="reference" />
+        <attr name="nodeReached" format="reference" />
+        <attr name="nodeFinished" format="reference" />
+        <attr name="nodeFailed" format="reference" />
+        <attr name="nodeRatio" format="float" />
+
+        <attr name="topTxtEnable" format="boolean" />
+        <attr name="topTxtSize" format="dimension" />
+        <attr name="topTxtColor" format="color" />
+        <attr name="topTxtGap" format="dimension" />
+        <attr name="topTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="bottomTxtEnable" format="boolean" />
+        <attr name="bottomTxtSize" format="dimension" />
+        <attr name="bottomTxtColor" format="color" />
+        <attr name="bottomTxtGap" format="dimension" />
+        <attr name="bottomTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="bottomWarnTxtColor" format="color" />
+        <attr name="bottomWarnTxtStyle" format="enum">
+            <enum name="common" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+
+        <attr name="lineWidth" format="dimension" />
+        <attr name="reachedLineColor" format="color" />
+        <attr name="unreachedLineColor" format="color" />
+
+        <attr name="regionWidth" format="dimension" />
+    </declare-styleable>
+</resources>
